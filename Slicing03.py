@@ -5,4 +5,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    n=len(s)
+    return s[1:n-1]
+s=str(input())
+print(main(s))
