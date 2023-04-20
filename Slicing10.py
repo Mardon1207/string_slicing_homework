@@ -8,4 +8,8 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    return s[n:k]
+s=str(input())
+n=int(input())
+k=int(input())
+print(main(s,n,k))
